@@ -1,0 +1,33 @@
+#APLogo{
+    width: 150px;
+    background-color: black;
+}
+img{
+    width: 30px;
+    background-color: black;
+}
+app-social{
+    float: right;
+    margin-top: auto;
+    display: flex;
+    justify-content: right;
+    background-color: black;
+}
+.container{
+    margin-top: auto;
+    display: flex;
+    justify-content: right;
+    background-color: black;
+
+}
+
+@media(max-width: 575px){
+    .container{
+        flex-direction: column;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
